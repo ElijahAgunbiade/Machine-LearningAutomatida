@@ -120,4 +120,14 @@ drop_cols = ['Unnamed: 0', 'tpep_pickup_datetime', 'tpep_dropoff_datetime',
              'improvement_surcharge', 'total_amount', 'tip_percent']
 
 df1 = df1.drop(drop_cols, axis=1)
-df1.info()
+
+# 1. Define list of cols to convert to string
+cols_to_str = ['RatecodeID', 'PULocationID', 'DOLocationID', 'VendorID']
+
+# 2. Convert each column to string
+for col in cols_to_str:
+    df1[col] = df1[col].astype('str') 
+
+# Convert categoricals to binary
+df2 = pd.get_dummies(df1, drop_first=True)
+df2.info()
