@@ -1,1 +1,4 @@
+We implemented data cleaning code to change data types for their best fit, added more columns with more relevance to the research from other dataframes and calculations within the primary dataframe. We also removed columns 
+with little significance to the research to cut processing time on the data and provide cleaner visualization and tables.
 
+Codes we used were 
