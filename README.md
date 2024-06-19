@@ -9,8 +9,8 @@ The TLC data comes from over 200,000 taxi and limousine licensees, making approx
 
 Note: This project's dataset was created for pedagogical purposes and may not be indicative of New York City taxi cab riders' behavior.
 
-## Your assignment
-We will create a machine learning model for the TLC data to predict whether or not a customer is a generous tipper and what features affect that.
+## Assignment
+We will create a machine learning model for the TLC data to predict whether or not a customer is a generous tipper, what features affect that, and calculate the machine learning model's accuracy.
 
 In this project, we will complete the following deliverables:
 
