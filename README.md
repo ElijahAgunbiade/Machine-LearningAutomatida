@@ -1,5 +1,5 @@
 # Machine-Learning Automatidata
-We are creating a machine learning model for a fictional Taxi company 'Automatida' to ancipate cost of traveling for passengers in respect to multiple features. We will implement feature engineering, model development, and evaluation. 
+We are creating a machine learning model for a fictional Taxi company 'Automatida' to ancipate whether or not a customer will be a generous tipper to their drivers. We will implement feature engineering, model development, and evaluation to figure out what factors affect that. 
 ## Background on the Automatidata scenario
 Automatidata works with its clients to transform their unused and stored data into useful solutions, such as performance dashboards, customer-facing tools, strategic business insights, and more. They specialize in identifying a client’s business needs and utilizing their data to meet those business needs. 
 
@@ -10,13 +10,13 @@ The TLC data comes from over 200,000 taxi and limousine licensees, making approx
 Note: This project's dataset was created for pedagogical purposes and may not be indicative of New York City taxi cab riders' behavior.
 
 ## Your assignment
-You will create a machine learning model for the TLC data. You will be responsible for leading these tasks, which include feature engineering, model development, and evaluation. 
+We will create a machine learning model for the TLC data to predict whether or not a customer is a generous tipper and what features affect that.
 
-###Specific project deliverables
-In this end-of-course project, you will gain valuable practice of your new skills as you complete the following deliverables:
+In this project, we will complete the following deliverables:
 
 Complete a PACE planner mapping questions, details, and action items for each stage of the project scenario
 
 Design and implement a machine learning model
 
 Draft an executive summary of your results
+
