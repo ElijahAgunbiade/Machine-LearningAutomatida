@@ -26,3 +26,5 @@ We managed to merge 2 dataframes, create new columns from main columns and delet
 ## Design and implement a machine learning model
 We created a Random Forest Classifyer to identity the best parameters to follow for the most accurate model in predicting the kind of customers that would be the most generous tippers. 
 We first began by testing the balance of the data based on the amount of data that jad generous customers and the amount that didn't. This was to make sure our future model would have enough data of generous and ungenerous tippers to be able to accurately understand what factors make a generous tipper and predict if a new customer would be one. 
+
+![Image1](https://github.com/ElijahAgunbiade/Machine-LearningAutomatidata/issues/1#issue-2363284414)
