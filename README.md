@@ -44,3 +44,14 @@ We then created a Confusion Matrix to understand the characteristics of the Rain
 
 ![confustion matrix](https://github.com/ElijahAgunbiade/Machine-LearningAutomatidata/assets/173221971/b8316abf-2476-47d1-b146-4b7aa2522a70)
 
+Lastly, we created a bar graph to plot the most influencial features that affects whether a customer will be a generous tipper or not in a descending order. We found that vendor id(who the driver is), predicted fare(how much the trip itself is expected to cost), average duration (how long the trip last), and average distance plays a heavy impact whether a customer would be a generous tipper or not
+
+![graph](https://github.com/ElijahAgunbiade/Machine-LearningAutomatidata/assets/173221971/97360365-fafd-4311-b10f-2727c54e57f4)
+
+##Executive Summary
+Well.....
+
+
+
+
+
