@@ -1,7 +1,7 @@
 We implemented data cleaning codes to change data types to their more useful fit, added more columns with more relevance to the research from other dataframes, as well as from calculations with columns within the primary dataframe. We also removed columns 
 with little significance to the research to cut processing time and provide cleaner visualization and tables.
 
-Codes we used were 
+Our data cleaning codes were:
 
 import numpy as np
 import pandas as pd
