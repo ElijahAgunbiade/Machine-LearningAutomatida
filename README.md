@@ -21,7 +21,7 @@ Design and implement a machine learning model
 Draft an executive summary of your results
 
 ## Data Cleaning and Organizing
-We managed to merge 2 dataframes, create new columns from main columns and delete unnecessary columns to create columns we needed for the research and delete the ones we didn't. This coding process is shown the [Data Cleaning Code](https://github.com/ElijahAgunbiade/Machine-LearningAutomatidata/DataCleaningCode). This resulted in us having a column 'generous' which depicted whether a customer was considered to be generous by the percentage of tip they gave compared to the total cost of the trip. This would be very useful in the proceeding on the research.
+We managed to merge 2 dataframes, create new columns from main columns and delete unnecessary columns to create columns we needed for the research and delete the ones we didn't. This coding process is shown the [Data Cleaning Code](DataCleaningCode). This resulted in us having a column 'generous' which depicted whether a customer was considered to be generous by the percentage of tip they gave compared to the total cost of the trip. This would be very useful in the proceeding on the research.
 
 ## Design and implement a machine learning model
 We created a Random Forest Classifier and an XGB Classifier and compare the F1 Score to identity the most accurate model in predicting the kind of customers that would be the most generous tippers. 
