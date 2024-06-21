@@ -50,7 +50,7 @@ Lastly, we created a bar graph to plot the most influencial features that affect
 
 ![graph](https://github.com/ElijahAgunbiade/Machine-LearningAutomatidata/assets/173221971/97360365-fafd-4311-b10f-2727c54e57f4)
 
-##Executive Summary
+## Executive Summary
  This model performs acceptably. Its F1 score was 0.7235 and it had an overall accuracy of 0.6865. It correctly identified ~78% of the actual responders in the test set, which is 48% better than a random guess. 
  
 Unfortunately, random forest is not the most transparent machine learning algorithm. We know that VendorID, predicted_fare, mean_duration, and mean_distance are the most important features, but we don't know how they influence tipping. This would require further exploration. It is interesting that VendorID is the most predictive feature. This seems to indicate that one of the two vendors tends to attract more generous customers. It may be worth performing statistical tests on the different vendors to examine this further.
