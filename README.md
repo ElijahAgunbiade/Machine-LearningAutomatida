@@ -14,9 +14,11 @@ We will create a machine learning model for the TLC data to predict whether or n
 
 In this project, we will complete the following deliverables:
 
-Complete a PACE planner mapping questions, data clean, data organize, and action items for each stage of the project scenario
+Data Clean and Organize 
 
 Design and implement a machine learning model
+
+Analyze important factors
 
 Draft an executive summary of your results
 
