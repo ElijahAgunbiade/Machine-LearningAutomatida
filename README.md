@@ -49,9 +49,12 @@ Lastly, we created a bar graph to plot the most influencial features that affect
 ![graph](https://github.com/ElijahAgunbiade/Machine-LearningAutomatidata/assets/173221971/97360365-fafd-4311-b10f-2727c54e57f4)
 
 ##Executive Summary
-Well.....
+ This model performs acceptably. Its F1 score was 0.7235 and it had an overall accuracy of 0.6865. It correctly identified ~78% of the actual responders in the test set, which is 48% better than a random guess. 
+ 
+Unfortunately, random forest is not the most transparent machine learning algorithm. We know that VendorID, predicted_fare, mean_duration, and mean_distance are the most important features, but we don't know how they influence tipping. This would require further exploration. It is interesting that VendorID is the most predictive feature. This seems to indicate that one of the two vendors tends to attract more generous customers. It may be worth performing statistical tests on the different vendors to examine this further.
 
-
+In our case, the ways we could improve the models would be to try creating three new columns that indicate if the trip distance is short, medium, or far. We could also engineer a column that gives a ratio that represents (the amount of money from the fare amount to the nearest higher multiple of $5) / fare amount. For example, if the fare were $12, the value in this column would be 0.25, because $12 to the nearest higher multiple of $5 ($15) is $3, and $3 divided by $12 is 0.25. The intuition for this feature is that people might be likely to simply round up their tip, so journeys with fares with values just under a multiple of $5 may have lower tip percentages than those with fare values just over a multiple of $5. We could also do the same thing for fares to the nearest $10.
+In addition to this, it would be very helpful to have past tipping behavior for each customer. It would also be valuable to have accurate tip values for customers who pay with cash, as well as to have a lot more data. With enough data, we could create a unique feature for each pickup/dropoff combination.
 
 
 
