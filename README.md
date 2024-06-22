@@ -24,7 +24,7 @@ Analyze important factors
 Draft an executive summary of your results
 
 ## Data Cleaning and Organizing
-We managed to merge 2 dataframes, delete unnecessary columns, and create new neccessary columns from main columns for the research. This coding process is shownn in the [DataCleaningCode](https://github.com/ElijahAgunbiade/Machine-LearningAutomatidata/blob/main/DataCleaningCode)) page. This resulted in us having a column,'generous', which depicted whether a customer was considered to be generous by the percentage of tip they gave compared to the total cost of the trip. This would be very useful in the proceeding of the research.
+We managed to merge 2 dataframes, delete unnecessary columns, and create new neccessary columns from main columns for the research. This coding process is shownn in the [Data Cleaning Code](https://github.com/ElijahAgunbiade/Machine-LearningAutomatidata/blob/main/DataCleaningCode) page. This resulted in us having a column,'generous', which depicted whether a customer was considered to be generous by the percentage of tip they gave compared to the total cost of the trip. This would be very useful in the proceeding of the research.
 
 ## Design and implement a machine learning model
 ### We created a Random Forest Classifier and an XGB Classifier and compare the F1 Score to identity the most accurate model in predicting the kind of customers that would be the most generous tippers. 
