@@ -1,9 +1,10 @@
 # Machine-Learning Automatidata
-We are creating a machine learning model for a fictional Taxi company 'Automatida' to ancipate whether or not a customer will be a generous tipper to their drivers. We will implement feature engineering, model development, and evaluation to figure out what factors affect that. 
+We are creating a machine learning model as a consultant in a fiction consulting firm, 'Automatida', for the 'New York City Taxi and Limousine Commission' to ancipate whether or not a customer will be a generous tipper to their drivers. We will implement feature engineering, model development, and evaluation to figure out what factors affect that. 
 ## Background on the Automatidata scenario
 Automatidata works with its clients to transform their unused and stored data into useful solutions, such as performance dashboards, customer-facing tools, strategic business insights, and more. They specialize in identifying a client’s business needs and utilizing their data to meet those business needs. 
 
-Automatidata is consulting for the New York City Taxi and Limousine Commission (TLC). New York City TLC is an agency responsible for licensing and regulating New York City's taxi cabs and for-hire vehicles. The agency has partnered with Automatidata to develop a regression model that helps estimate taxi fares before the ride, based on data that TLC has gathered. 
+Automatidata is consulting for the New York City Taxi and Limousine Commission (TLC). New York City TLC is an agency responsible for licensing and regulating New York City's taxi cabs and for-hire vehicles. The agency has partnered with Automatidata to develop a regression model that helps estimate taxi fares before the ride, as well as tipping profiles based on data that TLC has gathered. 
+The purpose is for TLC to better create algorithms that benefits both the quality of the customer's ride experience, as well as Taxi driver's work experience.
 
 The TLC data comes from over 200,000 taxi and limousine licensees, making approximately one million combined trips per day. 
 
